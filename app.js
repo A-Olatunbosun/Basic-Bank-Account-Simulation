@@ -33,8 +33,8 @@ class BankAccount {
 }
 
 // Example:
-const account = new BankAccount("Joe Smith", 1800);
-// account.displayBalance();
-account.deposit(500);
-account.withdraw(200);
-account.displayBalance();
+const account = new BankAccount("Joe Smith", 1800); //Account Name: Joe Smith, Balance: 1800
+
+account.deposit(500); //Deposit: 500, Balance = 2300
+account.withdraw(200); //Withdraw 200,
+account.displayBalance(); //Current Balance = 2100
